@@ -10,8 +10,7 @@ export default function BuildControl(props) {
             >Less</button>
             <button
                 className={classes.More}
-                onClick={props.addIngredient}
-            >More</button>
+                onClick={props.addIngredient}>More</button>
         </div>
     )
 }
