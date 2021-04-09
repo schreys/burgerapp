@@ -9,7 +9,6 @@ export default function Burger(props) {
             })
         }
     ).reduce((curr, newVal) => curr.concat(newVal), []);
-    console.log(transformedIngredients)
     if (transformedIngredients.length === 0) {
 
         transformedIngredients = <p>Please select ingredients</p>
